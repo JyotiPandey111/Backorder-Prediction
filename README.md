@@ -45,7 +45,7 @@ Classify the products whether they would go into Backorder based on the historic
 
 
 
-#### Observations Obtained about Features in the Dataset:
+## Observations Obtained about Features in the Dataset:
 * In the Train dataset we are provided with 23 columns(Features) of data. Dataset has 15 columns of data type float and 8 coumns are       string ( including target variable)
      * Numerical Feature: 15 columns 
      * All the features are continuous numerical variables.
@@ -83,7 +83,7 @@ So it is a Binary Classification problem.
 The last row of the dataset consists of NaN values for all features, which will be dropped in the feature engineering section.
 
 
-## 4. Observations from Exploratory Data Analysis and Visualization:
+## Observations from Exploratory Data Analysis and Visualization:
 
 * Challenges observed in EDA which should be taken care in Feature Engineering Part:
   * Dataset is highly imbalanced should be handled in the feature engineerig section. The problem we are solving is binary classification with very high data imbalance       with positive class being the minority.
